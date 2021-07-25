@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #fff;
+    padding-left: 25px;
+    padding-right: 25px;    
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #2b5797;
+}
+
+.section {
+    margin: 25px;
+    height: 170px;
+    width: 300px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+/*buttons*/
+$green-color: #2ecc71;
+$red-color: #e74c3c;
+$yellow-color: #f1c40f;
+$orange-color: #e67e22;
+$blue-color: #3498db;
+$grey-color: #7f8c8d;
+$white-color: #fff;
+$border-radius: 20px;
+
+.btn
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    /*background-color: $green-color;*/
+}
